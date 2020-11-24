@@ -1,0 +1,42 @@
+body {
+  background-color: rgba(241, 199, 82, 0.738);
+}
+section {
+  padding: 20;
+}
+div {
+  padding: 10;
+  display: block;
+}
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+}
+
+.center {
+  text-align: center;
+  padding: auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#welcome {
+  height: 200;
+  background-image: url(src/img/wave.jpg);
+  background-size: cover;
+}
+
+#history {
+  font-style: italic;
+}
+
+#heroes img {
+  height: 150px;
+  width: auto;
+}
