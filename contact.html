@@ -3,46 +3,78 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Contact the crew</title>
+    <title>Contact the Kingdom</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Asul"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="center">
-      <img src="src/img/ArgoLogo.png" alt="logo" />
+    <!--header-->
 
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="heroes.html">Our Heroes</a></li>
-        <li><a href="inventory.html">Our stuff</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+    <header>
+      <div class="left">
+        <img src="src/img/colchis-logo2.png" alt="logo" />
+      </div>
+      <div class="right, nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="royals.html">The Royal Family</a></li>
+          <li><a href="parties.html">Our Parties</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </header>
-    <section id="contact">
-      <form>
-        <label for="firstname">First name:</label><br />
-        <input type="text" id="firstname" name="fname" value="John" /><br />
-        <label for="lastname">Last name:</label><br />
-        <input type="text" id="lastname" name="lname" value="Doe" /><br />
-        <label for="email">Email address:</label><br />
-        <input
-          type="text"
-          id="email"
-          name="mail"
-          value="John@greece.com"
-        /><br />
-        <label for="message">Message:</label><br />
-        <textarea
-          type="text"
-          id="message"
-          name="message"
-          value="Tell us what's happening on the mainland"
-        ></textarea>
-        <br />
-        <br />
-        <input type="submit" value="Submit" />
-      </form>
-    </section>
-    <!-- javascript -->
-    <script src="script.js"></script>
+    <!--content-->
+    <div class="content">
+      <section id="contact">
+        <h2>Send us some love!</h2>
+        <p>
+          We are always happy to here from our citizens! <br />
+          Send us your concrit, compliments or just reach out to say hi. <br />
+          We read every message!
+        </p>
+        <form>
+          <label for="firstname">First name</label><br />
+          <input
+            type="text"
+            id="firstname"
+            name="fname"
+            placeholder="Jane"
+          /><br />
+          <label for="lastname">Last name</label><br />
+          <input
+            type="text"
+            id="lastname"
+            name="lname"
+            placeholder="Doe"
+          /><br />
+          <label for="email">Email address</label><br />
+          <input
+            type="text"
+            id="email"
+            name="mail"
+            placeholder="jane@colchis.com"
+          /><br />
+          <label for="message">Message</label><br />
+          <textarea
+            type="text"
+            id="message"
+            name="message"
+            placeholder="Tell us what's going on"
+          ></textarea>
+          <br />
+          <br />
+          <input type="submit" value="send" />
+        </form>
+      </section>
+      <!-- javascript -->
+      <script src="script.js"></script>
+    </div>
   </body>
 </html>
