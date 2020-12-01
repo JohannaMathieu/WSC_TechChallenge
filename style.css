@@ -56,6 +56,13 @@ header a:visited {
   text-decoration: none;
 }
 
+header.index .navIndex,
+header.royals .navRoyals,
+header.parties .navParties,
+header.contact .navContact {
+  background-position: left center;
+}
+
 a,
 a:link,
 a:visited {
